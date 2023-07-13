@@ -69,7 +69,7 @@ public class Media {
                 System.out.println("Média: " + media);
                 System.out.println("Aluno "+status);
 
-            } else if (media > 0 && media < 5 ) {
+            } else if (media >= 0 && media < 5 ) {
                 this.status = "reprovado!!! \uD83D\uDE15";
                 System.out.println("Média: " + media);
                 System.out.println("Aluno "+status);
