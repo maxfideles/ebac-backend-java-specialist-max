@@ -17,12 +17,12 @@ public class Main {
             list.setListNames(name);
 
             System.out.println(name+" added!");
-            System.out.println("Would you like to add another name to the list?");
+            System.out.println("Would you like to add another name to the list? (y/n)");
             aux = s.nextLine();
 
         }while(aux.equalsIgnoreCase("y"));
 
-        System.out.println("My I sort your list?");
+        System.out.println("My I sort your list? (y/n)");
         aux = s.nextLine();
 
         if (aux.equalsIgnoreCase("y")){
