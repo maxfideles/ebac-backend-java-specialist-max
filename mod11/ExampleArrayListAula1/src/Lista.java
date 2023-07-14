@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class Lista {
 
-    private List<String> listNames = new java.util.ArrayList<>();
+    private List<String> listNames = new ArrayList<>();
 
     public List getListNames(){
         return listNames;
