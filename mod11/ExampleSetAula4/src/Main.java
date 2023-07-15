@@ -1,4 +1,3 @@
-import javax.sound.midi.SysexMessage;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -19,7 +18,7 @@ public class Main {
      * Example of the <b>Interface Set</b> using <b>HashSet</b> and <b>TreeSet</b> with a Wrapper.<p></p>
      * <b>HashSet</b> - The elements are <b>unique</b>, but the <b>order is random</b>.(Faster)<p></p>
      * <b>TreeSet</b> - The elements are <b>unique</b> and there is a  <b>natural order</b>.(Slower)<p></p>
-     *
+     * To compare to the Set use using objects, see {@link #setObject()} () setObject()}.
      * @author maxfideles
      */
     public static void setWrapper(){
@@ -57,6 +56,8 @@ public class Main {
      * <b>HashSet</b> - The elements are <b>unique</b>, but the <b>order is random</b>.(Faster)<p></p>
      * <b>TreeSet</b> - The elements are <b>unique</b> and there is a  <b>natural order</b>.(Slower)<p></p>
      *
+     * To compare to the Set use using wrappers, see {@link #setWrapper() setWrapper()}.
+     *
      * @author maxfideles
      */
     public static void setObject(){
@@ -66,6 +67,7 @@ public class Main {
         //Creating Interface Set with Student type.
         Set<Student> students = new HashSet<>();
 
+
         //Instancing new Students objects;
         Student student1 = new Student("Gabriel","UX",1);
         Student student2 = new Student("Max","UI",2);
@@ -74,9 +76,19 @@ public class Main {
         Student student5 = new Student("Gabriel","UX",1);
 
         students.add(student1);
+        students.add(student2);
+        students.add(student3);
+        students.add(student4);
+        students.add(student5);
 
 
-        //As the Interface is an object, it's needed to add the claas toString() in the Student Class.
+
+        //As the students contains Student objects (not only wrappers as setWrapper,
+        // it's needed to add two things in the class Student:
+        //  - Implement the  equals() and hasCode() to be able to sort;
+        //  - The function toString()  to print it out.
+        //
         System.out.println(students);
+
     }
 }

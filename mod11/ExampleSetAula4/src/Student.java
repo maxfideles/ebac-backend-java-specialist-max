@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Student {
 
     private String name;
@@ -17,9 +19,21 @@ public class Student {
         this.idStudent = idStudent;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return idStudent == student.idStudent && Objects.equals(name, student.name) && Objects.equals(course, student.course);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, course, idStudent);
+    }
 
     public String toString(){
-        return this.name;
+        return "{Name: " + this.name + " Course: " + this.course + " ID: " + this.idStudent +"}";
     }
     public String getName(){
         return this.name;
