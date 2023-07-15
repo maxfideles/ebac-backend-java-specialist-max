@@ -18,7 +18,7 @@ public class Main {
      * Example of the <b>Interface Set</b> using <b>HashSet</b> and <b>TreeSet</b> with a Wrapper.<p></p>
      * <b>HashSet</b> - The elements are <b>unique</b>, but the <b>order is random</b>.(Faster)<p></p>
      * <b>TreeSet</b> - The elements are <b>unique</b> and there is a  <b>natural order</b>.(Slower)<p></p>
-     * To compare to the Set use using objects, see {@link #setObject()} () setObject()}.
+     * To compare to the Set use using objects, see {@link #setObject()  setObject()}.
      * @author maxfideles
      */
     public static void setWrapper(){
