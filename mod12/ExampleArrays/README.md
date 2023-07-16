@@ -1,11 +1,10 @@
 # Ordering numbers in an array
 
+  
+
 #### Technical:
  Java Class package used:
 - Scanner
-
-
-
 
 #### Getting the numbers 
 It's created two arrays and a string variable, then follow the next:
@@ -32,11 +31,7 @@ Was created the variable *aux* to help in this operation.
 Inputing integers on the console:
 9,3,1,5,8
 
-the output will be:
-1
-3
-5
-8
-9
+the output will be: <br>
+1 <br> 3 <br> 5 <br> 8 <br> 9
 
 
