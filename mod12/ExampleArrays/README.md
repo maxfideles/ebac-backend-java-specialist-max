@@ -14,5 +14,9 @@ Due to it was necessary to create a function to do it.
 
 #### Comparing
 
+As it's needed to go through all the array, now with numbers of int type, to compare each elements was used two *for*, one inside the other.
+- One *for* to go through each position on the array;
+- The other *for* to compare the element on the current position to the next one.
+
 
 
