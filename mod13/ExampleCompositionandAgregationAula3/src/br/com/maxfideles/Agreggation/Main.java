@@ -1,4 +1,4 @@
-package br.com.maxfideles.Composition;
+package br.com.maxfideles.Agreggation;
 
 public class Main {
     public static void main (String [] args){

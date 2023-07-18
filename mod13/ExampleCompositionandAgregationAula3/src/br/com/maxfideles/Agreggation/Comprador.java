@@ -1,4 +1,4 @@
-package br.com.maxfideles.Composition;
+package br.com.maxfideles.Agreggation;
 
 public class Comprador {
     private String name;

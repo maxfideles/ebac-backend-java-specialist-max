@@ -1,4 +1,4 @@
-package br.com.maxfideles.Composition;
+package br.com.maxfideles.Agreggation;
 
 import java.util.ArrayList;
 import java.util.List;
