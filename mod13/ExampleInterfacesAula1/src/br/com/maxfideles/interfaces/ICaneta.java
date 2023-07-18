@@ -11,7 +11,16 @@ package br.com.maxfideles.interfaces;
  */
 public interface ICaneta {
 
+    /**
+     *
+     * @param texto Text to be added to be printed on the console
+     */
     public void escrever(String texto);
+
+    /**
+     *
+     * @return The color defined in the class
+     */
 
     public String getCor();
 }
