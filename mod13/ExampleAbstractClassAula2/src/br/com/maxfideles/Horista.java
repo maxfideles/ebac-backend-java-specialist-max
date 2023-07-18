@@ -9,6 +9,22 @@ public class Horista extends Empregado {
 
     @Override
     public double vencimento() {
-        return 0;
+        return precoHora*horasTrabalhadas;
+    }
+
+    public double getPrecoHora() {
+        return precoHora;
+    }
+
+    public void setPrecoHora(double precoHora) {
+        this.precoHora = precoHora;
+    }
+
+    public double getHorasTrabalhadas() {
+        return horasTrabalhadas;
+    }
+
+    public void setHorasTrabalhadas(double horasTrabalhadas) {
+        this.horasTrabalhadas = horasTrabalhadas;
     }
 }
