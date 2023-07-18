@@ -14,6 +14,10 @@ public class Produto {
 
     }
 
+    public Produto(float preco, String name){
+        this.nome = name;
+        this.preco = preco;
+    }
 
     public float getPreco() {
         return preco;

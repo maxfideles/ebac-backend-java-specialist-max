@@ -7,6 +7,12 @@ public class Vendedor {
     public void vende(){
 
     }
+
+    public Vendedor(String name, float comissao){
+        this.name = name;
+        this.comissao = comissao;
+    }
+
     public String getName() {
         return name;
     }

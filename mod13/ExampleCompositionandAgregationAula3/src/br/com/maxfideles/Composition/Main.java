@@ -35,18 +35,15 @@ public class Main {
      * @return the vendedor object
      */
     private static Vendedor createVendedor(String name, float comissao){
-        Vendedor vendedor = new Vendedor();
-        vendedor.setName(name);
-        vendedor.setComissao(comissao);
+        Vendedor vendedor = new Vendedor(name, comissao);
+
         return vendedor;
     }
 
-    public static Produto createProduto(String name, float preco){
-        Produto produto1 = new Produto();
-        produto1.setNome(name);
-        produto1.setPreco(preco);
+    private static Produto createProduto(String name, float preco){
+        Produto produto = new Produto(preco, name);
 
-        return  produto1;
+        return  produto;
     }
 
 
