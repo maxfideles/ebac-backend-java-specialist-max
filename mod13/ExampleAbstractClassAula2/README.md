@@ -2,6 +2,7 @@
 
 This code is created based on the following UML diagram:
 
+<img width="697" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/e5980ad0-4d2d-4bbd-a959-0dcdaa1695d3">
 
 
 
