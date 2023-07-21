@@ -23,7 +23,4 @@ if the **_Banco_**(Bank) already exist. If the bank is deleted,
 all the accounts related to that bank will be also excluded.
 
 
-<img width="707" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/9c75406a-864c-4fc2-a3ec-a0fb91f81f28"> <br>
-
-
-
+![Composicao](https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/838f34af-aa0c-42dd-af41-1bf9dfdbe02b)
