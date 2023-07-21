@@ -2,8 +2,9 @@
 
 ### Aggregation
 
-When an object need that other created object to exist.<br>
-In the [example]() below using the UML diagram, it's just possible to
+It's when an object need that other created object to exist.<br>
+In the [example](https://github.com/maxfideles/tarefas-ebac-max/tree/main/mod13/ExampleCompositionandAgregationAula3/src/br/com/maxfideles/Agreggation) 
+taken using the UML class diagram below, it's just possible to
 create the object **_Venda_** (Check out an order) if already exists 
 **_Produto_** (Product), **_Vendedor_** (Seller) and 
 **_Comprador_** (Buyer) objects.
@@ -13,5 +14,9 @@ create the object **_Venda_** (Check out an order) if already exists
 
 ### Composition
 
+It's when the object does not need of other(s) to be created, but when 
+it is deleted, it deletes all the others objects related.</b>
+In the [example](https://github.com/maxfideles/tarefas-ebac-max/tree/main/mod13/ExampleCompositionandAgregationAula3/src/br/com/maxfideles/Composition) 
+taken using the UML class diagram below
 
 
