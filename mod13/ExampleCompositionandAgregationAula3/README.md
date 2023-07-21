@@ -17,7 +17,10 @@ create the object **_Venda_** (Check out an order) if already exists
 It's when the object does not need of other(s) to be created, but when 
 it is deleted, it deletes all the others objects related.</b>
 In the [example](https://github.com/maxfideles/tarefas-ebac-max/tree/main/mod13/ExampleCompositionandAgregationAula3/src/br/com/maxfideles/Composition) 
-taken using the UML class diagram below
+taken using the UML class diagram below, it's just possible to create 
+the **_ContaCorrente_** (checkingAccount) and **_Poupanca_**(savingAccount) 
+if the **_Banco_**(Bank) already exist. If the bank is deleted,
+all the accounts related to that bank will be also excluded.
 
 <img width="707" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/d56d823a-0f30-4eeb-b86b-1ca9c3e518ec">
 
