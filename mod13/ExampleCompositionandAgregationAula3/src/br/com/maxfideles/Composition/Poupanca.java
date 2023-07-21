@@ -1,16 +1,9 @@
 package br.com.maxfideles.Composition;
 
-public class ContaCorrente {
+public class Poupanca {
 
     private float saldo;
-    private float chequeEspecial;
-
-    private Banco banco;
-
-
-    public ContaCorrente(){
-
-    }
+    Banco banco;
 
 
     public void deposita(){
@@ -20,7 +13,6 @@ public class ContaCorrente {
     public void saque(){
 
     }
-
     public void extrato(){
 
     }
@@ -31,14 +23,6 @@ public class ContaCorrente {
 
     public void setSaldo(float saldo) {
         this.saldo = saldo;
-    }
-
-    public float getChequeEspecial() {
-        return chequeEspecial;
-    }
-
-    public void setChequeEspecial(float chequeEspecial) {
-        this.chequeEspecial = chequeEspecial;
     }
 
     public Banco getBanco() {

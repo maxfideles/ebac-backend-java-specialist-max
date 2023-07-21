@@ -22,8 +22,8 @@ the **_ContaCorrente_** (checkingAccount) and **_Poupanca_**(savingAccount)
 if the **_Banco_**(Bank) already exist. If the bank is deleted,
 all the accounts related to that bank will be also excluded.
 
-<img width="707" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/d56d823a-0f30-4eeb-b86b-1ca9c3e518ec">
-![Composicao](https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/9c75406a-864c-4fc2-a3ec-a0fb91f81f28)
+
+<img width="707" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/9c75406a-864c-4fc2-a3ec-a0fb91f81f28"> <br>
 
 
 
