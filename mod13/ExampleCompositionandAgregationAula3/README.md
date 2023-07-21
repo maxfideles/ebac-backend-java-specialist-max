@@ -9,7 +9,7 @@ create the object **_Venda_** (Check out an order) if already exists
 **_Produto_** (Product), **_Vendedor_** (Seller) and 
 **_Comprador_** (Buyer) objects.
 
-<img width="707" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/cede0110-bfff-4f9a-b177-9d77ed2ff0f8"> <br>
+![Composicao](https://lucid.app/publicSegments/view/c8ef4597-83df-440c-bc09-44dc29622c95/image.png)
 
 
 ### Composition
