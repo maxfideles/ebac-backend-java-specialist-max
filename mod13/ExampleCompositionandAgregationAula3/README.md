@@ -23,4 +23,4 @@ if the **_Banco_**(Bank) already exist. If the bank is deleted,
 all the accounts related to that bank will be also excluded.
 
 
-![Composicao](https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/838f34af-aa0c-42dd-af41-1bf9dfdbe02b)
+![Composicao](https://lucid.app/publicSegments/view/a200efb0-659e-4499-a995-f4151ea55fe8/image.png)
