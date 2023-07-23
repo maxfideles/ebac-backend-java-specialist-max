@@ -17,5 +17,10 @@ Data Access Object (or DAO) pattern:
 
 ![Class Diagram](https://lucid.app/publicSegments/view/bc0a092e-7dfa-4162-a4c9-5f3be7e34568/image.png)
 
-DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. This way, the service remains completely in dark about how the low-level operations to access the database is done. This is known as the principle of Separation of Logic.
-
+The DAO Design Pattern is used to separate the data persistence
+logic in a separate layer. This way, the service remains 
+completely in dark about how the low-level operations to
+access the database is done. This is known as the principle 
+of Separation of Logic.<br>
+On this project the data persistence logic was defined in
+**ClienteMapDAO**,.
