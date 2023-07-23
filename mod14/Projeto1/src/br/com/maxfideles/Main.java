@@ -45,6 +45,8 @@ public class Main {
                String cpfCliente = JOptionPane.showInputDialog(null, "Insira apenas o número do cpf do cliente para excluir: ", "Excluir", JOptionPane.INFORMATION_MESSAGE);
                iClienteDAO.excluir(Long.parseLong(cpfCliente.trim()));
                JOptionPane.showMessageDialog(null,"Cliente Excluido!");
+               option = JOptionPane.showInputDialog(null, "Escolha uma opcao: \n1- Cadastrar \n2- Consultar \n3- Excluir \n4- Alterar \n5- Sair", "Projeto 1 - CRUD Clientes", JOptionPane.INFORMATION_MESSAGE);
+
 
            } else if(option.equals("4")){
                String dados = JOptionPane.showInputDialog(null, "Insira os dados para serem alterados como seguinda a ordem abaixo: \n(Nome, CPF, Telefone, Endereço, Número, Cidade, Estado)", "Projeto 1 - CRUD Clientes", JOptionPane.INFORMATION_MESSAGE);
