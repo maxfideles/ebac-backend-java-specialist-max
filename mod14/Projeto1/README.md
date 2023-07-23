@@ -23,4 +23,4 @@ completely in dark about how the low-level operations to
 access the database is done. This is known as the principle 
 of Separation of Logic.<br>
 On this project the data persistence logic was defined in
-**ClienteMapDAO**,.
+**ClienteMapDAO** class.
