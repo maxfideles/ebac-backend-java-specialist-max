@@ -5,7 +5,6 @@ public abstract class ConstrucaoBuilder {
     abstract void buildTelhado();
     abstract void  buildGaragem();
     abstract void  buildTamanho();
-
     public Construcao build(){
         return construcao;
     }

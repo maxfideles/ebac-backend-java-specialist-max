@@ -12,7 +12,6 @@ public class Diretor {
     }
 
     //A method defining the building process order
-
     public Construcao construir(){
         construcaoBuilder.buildGaragem();
         construcaoBuilder.buildParede();

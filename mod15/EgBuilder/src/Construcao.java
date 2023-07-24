@@ -36,7 +36,6 @@ public class Construcao {
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
-
     public void imprimir(){
         System.out.println("Garagem: "+garagem+ " Tamanho: " +tamanho+ " Parede: " +parede);
     }

@@ -11,7 +11,6 @@ public class CasaBuilder extends ConstrucaoBuilder{
         construcao.setTelhado("Ceramico");
 
     }
-
     @Override
     void buildGaragem() {
         construcao.setGaragem("2 carros");

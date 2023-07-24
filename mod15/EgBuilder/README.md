@@ -34,7 +34,6 @@ public class Construcao {
 }
 ```
 
-
 #### - The Builders
 
 The builder mainly have one parte, the **Abstract Class**. The abstract class will be responsible for defining the **actions** to build (methods), that will be used (implemented) by the extended class (_action builder_) for a specific construction type (An apartment, residence, studio, mansion).
