@@ -94,8 +94,9 @@ System.out.println(singleton1);
 
 ```
 
-_Output_:
-![[Pasted image 20230724165852.png]]
+_Output_:<br>
+<img width="658" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/cc7af353-9638-4751-98a9-68a099065ace">
+
 
 ---- 
 
