@@ -98,9 +98,14 @@ _Output_:<br>
 <img width="658" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/cc7af353-9638-4751-98a9-68a099065ace">
 
 
+
+> Singleton is not thread safe!
+
 ---- 
 
 External Resources:<br>
 [Singleton Design Pattern](https://springframework.guru/gang-of-four-design-patterns/singleton-design-pattern/)
 
 [Singleton - Refactoring](https://refactoring.guru/design-patterns/singleton)
+
+ 
