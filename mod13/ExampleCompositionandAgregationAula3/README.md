@@ -9,7 +9,7 @@ create the object **_Venda_** (Check out an order) if already exists
 **_Produto_** (Product), **_Vendedor_** (Seller) and 
 **_Comprador_** (Buyer) objects.
 
-![Composicao](https://lucid.app/publicSegments/view/c8ef4597-83df-440c-bc09-44dc29622c95/image.png)
+<img width="1201" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/e01112f7-4297-427f-b3af-530bfa912ae3">
 
 
 ### Composition
@@ -22,5 +22,5 @@ the **_ContaCorrente_** (checkingAccount) and **_Poupanca_**(savingAccount)
 if the **_Banco_**(Bank) already exist. If the bank is deleted,
 all the accounts related to that bank will be also excluded.
 
+<img width="1201" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/4b55faf7-89b7-4085-aabe-bdca0816f770">
 
-![Composicao](https://lucid.app/publicSegments/view/a200efb0-659e-4499-a995-f4151ea55fe8/image.png)
