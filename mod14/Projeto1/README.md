@@ -15,7 +15,9 @@ Data Access Object (or DAO) pattern:
 
 ### Class Diagram
 
-![Class Diagram](https://lucid.app/publicSegments/view/bc0a092e-7dfa-4162-a4c9-5f3be7e34568/image.png)
+<img width="800" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/53dcbe1a-79d3-406a-bf8d-04ee5aa7c2ca">
+
+<br>
 
 The DAO Design Pattern is used to separate the data persistence
 logic in a separate layer. This way, the service remains 
