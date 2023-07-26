@@ -7,9 +7,9 @@ Imagine that you need to create UIComponents based on the user's Operational Sys
 
 the UML diagram for this example is shown below:
 
-![[FactoryMethodImage.png]]
+<img width="897" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/f7406fbf-ee8f-4e05-8e58-5b300dae5c43">
 
-
+<br>
 The interface _UIComponents_ set the methods that the **Concrete UIComponent**s classes (Android and IOS Components) will implement to create different final UI's.
 
 
