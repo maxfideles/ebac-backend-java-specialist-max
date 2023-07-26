@@ -10,10 +10,11 @@ the UML diagram for this example is shown below:
 <img width="897" alt="image" src="https://github.com/maxfideles/tarefas-ebac-max/assets/61297641/f7406fbf-ee8f-4e05-8e58-5b300dae5c43">
 
 <br>
-The interface _UIComponents_ set the methods that the **Concrete UIComponent**s classes (Android and IOS Components) will implement to create different final UI's.
+
+The interface *UIComponents* set the methods that the **Concrete UIComponent**s classes (Android and IOS Components) will implement to create different final UI's.
 
 
-The abstract class _BaseComponentsFactory_ (Creator) will set the method to create the UIComponents based on the user's Operational System, and this method is implemented by the _ComponentsFactory_ (Concrete Creator).
+The abstract class *BaseComponentsFactory* (Creator) will set the method to create the UIComponents based on the user's Operational System, and this method is implemented by the _ComponentsFactory_ (Concrete Creator).
 
 In case to create a new UIComponents for an another OS, the main class doesn't need to be changed, the only changes to be done are, to implement a new **Concrete UIComponents** class, and add it to the **Concrete Creator**.
 
