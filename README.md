@@ -29,5 +29,6 @@ Find below what has been developed:
 - #### Module 16 (Design Pattern)
   - [Observer](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgObserver)
   - [Template Method](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgTemplateMethod)
+  - [Facade](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgFacade)
 
   
