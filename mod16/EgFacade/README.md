@@ -28,7 +28,7 @@ public class Main {
 }
 ```
 
-For example the **Rent** class will check if the user is already registered, which type of habitation the user would like to rent and return to the console the detail about the renting.
+For example, the **Rent** class will check if the user is already registered, which type of habitation the user would like to rent and return to the console the detail about the renting.
 
 
 ----
