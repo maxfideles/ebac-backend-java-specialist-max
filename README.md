@@ -30,5 +30,6 @@ Find below what has been developed:
   - [Observer](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgObserver)
   - [Template Method](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgTemplateMethod)
   - [Facade](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod16/EgFacade)
-
+- #### Module 17
+  - [Generics](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod17/EgGenerics)   
   
