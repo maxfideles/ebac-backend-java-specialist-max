@@ -33,3 +33,6 @@ Find below what has been developed:
 - #### Module 17
   - [Generics](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod17/EgGenerics)   
   
+
+
+Work in progress...
