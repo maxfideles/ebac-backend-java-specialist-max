@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Objects;
 
 public class Person {
 
@@ -23,9 +24,23 @@ public class Person {
         Person person1 = new Person("1","Gabriel","Brazilian",22);
         Person person2 = new Person("2","Tuppy","British",25);
         Person person3 = new Person("3","Giusepe","Italian",34);
+        Person person4 = new Person("4","Helena","Brazilian",0);
+        Person person5 = new Person("5", "Giusepe","Italian",25);
 
+        return List.of(person1,person2,person3,person4);
+    }
 
-        return List.of(person1,person2,person3);
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(id, person.id) && Objects.equals(name, person.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
     }
 
     public void setId(String id){
