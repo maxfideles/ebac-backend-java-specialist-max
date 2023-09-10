@@ -7,3 +7,23 @@ A flow is a sequence of objects that supports several methods that can be channe
 
 - [Intermediate Operations](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod22/EgStreams2) 
 - [Terminal Operations](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod22/EgStreams3)
+
+## Optional
+Optionals are created to avoid the *nullPointerExceptions* and before to get something, we can validate if it exist. 
+
+```java
+// .max get the maximum and .min get the minimum value  
+people.stream()  
+	.max(Comparator.comparing(Person::getAge))  
+	.ifPresent(System.out::println);  
+  
+people.stream()  
+	.min(Comparator.comparing(Person::getAge))  
+	.ifPresent(System.out::println);  
+  
+//another way  
+Optional<Person> personOpt = people.stream()  
+	.max(Comparator.comparing(Person::getAge));  
+
+personOpt.ifPresent(System.out::println);
+```
