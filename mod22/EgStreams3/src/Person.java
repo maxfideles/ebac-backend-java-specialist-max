@@ -19,15 +19,20 @@ public class Person {
         this.age = age;
     }
 
+    public Person(Person person) {
+        this(person.getId(),person.name,person.getNationality(),person.getAge());
+    }
+
+
     public List<Person> populatePerson(){
 
         Person person1 = new Person("1","Gabriel","Brazilian",22);
         Person person2 = new Person("2","Tuppy","British",25);
         Person person3 = new Person("3","Giusepe","Italian",34);
         Person person4 = new Person("4","Helena","Brazilian",0);
-        Person person5 = new Person("5", "Giusepe","Italian",25);
+        Person person5 = new Person("5", "Giovane","Italian",25);
 
-        return List.of(person1,person2,person3,person4);
+        return List.of(person1,person2,person3,person4,person5);
     }
 
     @Override
@@ -41,6 +46,16 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(id, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", nationality='" + nationality + '\'' +
+                ", age=" + age +
+                '}';
     }
 
     public void setId(String id){
