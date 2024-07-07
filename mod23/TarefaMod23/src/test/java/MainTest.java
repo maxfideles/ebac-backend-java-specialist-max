@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class MainTest {
@@ -34,7 +35,7 @@ public class MainTest {
 
         Assertions.assertNotNull(response);
         Assertions.assertEquals(Person.class,response.get(0).getClass());
-        Assertions.assertNotEquals(GENDER,response.get(0).getGender());
+        Assertions.assertNotEquals("Masculino",response.get(0).getGender());
 
     }
 
