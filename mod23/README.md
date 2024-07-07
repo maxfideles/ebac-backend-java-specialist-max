@@ -7,4 +7,4 @@ A unit can be almost anything you want it to be -- a line of code, a method, or 
 
 ## JUnit
 
-**JUnit** is a frameworks that helps the development and execution of unit tests in Java.
+**JUnit** is a framework that helps the development and execution of unit tests in Java.
