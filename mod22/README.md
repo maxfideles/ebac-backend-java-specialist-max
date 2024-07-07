@@ -9,7 +9,7 @@ A flow is a sequence of objects that supports several methods that can be channe
 - [Terminal Operations](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod22/EgStreams3)
 
 ## Optional
-[Optionals](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod22/EgStreams3) are created to avoid the *nullPointerExceptions* and before to get something, we can validate if it exist. 
+[Optionals](https://github.com/maxfideles/ebac-backend-java-specialist-max/tree/main/mod22/EgOptional) are created to avoid the *nullPointerExceptions* and before to get something, we can validate if it exist. 
 
 ```java
 // .max get the maximum and .min get the minimum value  
